@@ -25,3 +25,6 @@ I am a second-year Computer Science Engineering student working on improving my 
 - Load movie data from a JSON file
 - Add data visualization using charts
 - Convert the project into a web app using Flask
+
+## Sample Output 
+![image alt](https://github.com/harini-y-ops/movie-recommendation-system/blob/3270c0b60114ac05e750d9e1232fcb5608bea1df/movie_rec.JPG)
