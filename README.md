@@ -1,30 +1,43 @@
-# Movie Recommendation System
+#  Movie Recommendation System
 
-This project is a simple movie recommendation system built using Python.  
-It filters and recommends movies based on the user’s preferred genre and minimum rating.
-The program asks the user to enter a genre and a minimum rating, then recommends movies that match the criteria.
-
-I am a second-year Computer Science Engineering student working on improving my Python skills by building small projects like this.
+A Python command-line app that recommends movies based on your preferences.
 
 ## Features
-- Recommend movies based on genre
-- Filter movies using minimum rating
-- Uses Python dictionaries and list comprehension
-- Beginner-friendly command line interface
+-  Recommend movies by genre and minimum rating
+-  Get a random movie suggestion
+-  Search movies by director
+-  Feedback when no results are found
 
-## Technologies Used
-- Python
-- Dictionaries
-- Loops
-- Conditional statements
+## How to Run
+1. Make sure Python is installed on your system
+2. Clone the repository:
+```
+   git clone https://github.com/harini-y-ops/movie-recommendation-system.git
+```
+3. Run the program:
+```
+   python movie_rec.py
+```
+
+## Usage
+```
+------MENU------
+1. Recommend movie
+2. Random movie
+3. Search by director
+4. Exit
+```
+- **Option 1** — Enter a genre and minimum rating to get matching movies
+- **Option 2** — Get a surprise random movie
+- **Option 3** — Type a director's name to see all their movies
+- **Option 4** — Exit the program
+
+## Concepts Used
+- Python dictionaries and lists
 - List comprehension
+- Conditional statements (if/elif/else)
+- Loops
+- `random` module
 
-## Future Improvements
-- Search movies by director
-- Show top-rated movie
-- Load movie data from a JSON file
-- Add data visualization using charts
-- Convert the project into a web app using Flask
-
-## Sample Output 
-![image alt](https://github.com/harini-y-ops/movie-recommendation-system/blob/3270c0b60114ac05e750d9e1232fcb5608bea1df/movie_rec.JPG)
+## About
+I am a second-year Information Science and Engineering student building Python projects to strengthen my programming and problem-solving skills.
